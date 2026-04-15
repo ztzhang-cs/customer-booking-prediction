@@ -36,7 +36,7 @@ By shifting the decision threshold from the default `0.50` to an optimized `0.20
 * **Recall:** 0.6524
 * **F1 Score:** 0.4478
 
-### Confusion Matrix*(Evaluated at the optimized threshold of 0.20)*
+### Confusion Matrix(Evaluated at the optimized threshold of 0.20)
 ![Confusion Matrix](confusion_matrix.png)
 
 ### Feature Importance
@@ -50,8 +50,10 @@ Based on the machine learning insights, I propose the following strategies to th
 3. **Personalized Upselling:** Prioritize users with high `purchase_lead` and `length_of_stay` metrics (the top two most important features), pushing extra baggage or meal upsells to increase the average order value.
 
 ## 💻 How to Run
+**Note:** The raw dataset (`customer_booking.csv`) is explicitly omitted from this public repository in compliance with data privacy policies and the Forage Virtual Internship terms of use.
+
 1. Clone the repository.
 2. Ensure you have `pandas`, `numpy`, `scikit-learn`, `matplotlib`, and `seaborn` installed.
-3. Run the main script:
+3. If you possess the authorized dataset, place it in the root directory and run the main script:
    ```bash
    python booking_prediction.py
