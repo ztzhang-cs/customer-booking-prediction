@@ -36,8 +36,7 @@ By shifting the decision threshold from the default `0.50` to an optimized `0.20
 * **Recall:** 0.6524
 * **F1 Score:** 0.4478
 
-### Confusion Matrix
-*(Evaluated at the optimized threshold of 0.20)*
+### Confusion Matrix*(Evaluated at the optimized threshold of 0.20)*
 ![Confusion Matrix](confusion_matrix.png)
 
 ### Feature Importance
